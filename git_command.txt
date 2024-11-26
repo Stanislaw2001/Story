@@ -1,0 +1,28 @@
+code chapter1.txt - zamiast touch
+
+git status
+git add nazwa_pliku  - do kontroli
+- sledzenie i nowa zmiana 
+git commit -m "nazwa"
+git log  - pokazuje commit date kiedy wykonano
+git add .  - dodaj wszystko do git
+
+git diff - pokaż róznice zmiany od ostatniego zapisu
+na czerwono delete
+jaśniejszy zieleń dodane
+
+git checkout nazwa_pliku - roll back to the last wersion that was commited previous version
+-----------------------------------------
+wysyłanie plików do github'a
+git remote add origin https://github.com/Stanislaw2001/Story.git
+
+--------------------------
+git remote add origin https://github.com/Stanislaw2001/Story.git
+git branch -M main
+git push -u origin main
+-------------------------------
+git remote add origin https://github.com/Stanislaw2001/Story.git
+załadować local repository to remont repositorygit push 
+git push -u origin master:main
+git push -u origin main - nie działa
+ git branch -M main -  tworzenie głównej gałęzi
