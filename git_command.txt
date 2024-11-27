@@ -62,3 +62,22 @@ git branch nazwa_gałęzi
 git merge nazwa gałęzi
 
 sprawdzanie gałęzi
+git branch
+
+zmiana gałęzi
+git checkout nazwa_gałęzi 
+
+łączeni gałęzi main z alien-plot
+przejście do gałęzi main
+
+git checkout main
+
+i z main łączymy alien-plot
+
+git merge aline-plot
+
+wyjście z edytora VIM -> q!
+
+przesłanie do githuba?
+
+git push origin main -u
