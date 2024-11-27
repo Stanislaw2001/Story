@@ -1,11 +1,18 @@
-code chapter1.txt - zamiast touch
+code chapter1.txt - lub touch
 
+1. git init
 git status
-git add nazwa_pliku  - do kontroli
+git add nazwa_pliku  - dodanie do staging area
 - sledzenie i nowa zmiana 
-git commit -m "nazwa"
+git commit -m "nazwa"- dodanie do local repoziotory
+git push - dodanie do remont repozitory
 git log  - pokazuje commit date kiedy wykonano
-git add .  - dodaj wszystko do git
+2. git add .  - dodaj wszystko do git
+3. git ststus - sprawdzenie
+
+git rm --cached -r . -usuń wszystko
+
+4. git commit -m "Initial Commit"
 
 git diff - pokaż róznice zmiany od ostatniego zapisu
 na czerwono delete
@@ -24,5 +31,34 @@ git push -u origin main
 git remote add origin https://github.com/Stanislaw2001/Story.git
 załadować local repository to remont repositorygit push 
 git push -u origin master:main
-git push -u origin main - nie działa
+git push -u origin main - uaktualnia
  git branch -M main -  tworzenie głównej gałęzi
+
+ git init
+git remote add origin /path/to/origin.git
+git add .
+git commit -m "initial commit"
+git push origin main
+-------------------------
+Klonowanie z git repozytorium
+git clone url - adres
+npm install
+jeśli nie działa komenda wyżej   lub install node.js
+pip install npm
+
+
+echo '{ "content": "content.quakejs.com" }' > bin/web.json
+node bin/web.js --config ./web.json
+
+
+----------------
+https://github.com/arviz-devs/arviz
+---------------
+
+
+tworzenie nowej gałęzi w git
+git branch nazwa_gałęzi
+łączenie dwóch gałęzi
+git merge nazwa gałęzi
+
+sprawdzanie gałęzi
